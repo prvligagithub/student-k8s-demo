@@ -37,7 +37,7 @@ jobs:
  uses: docker/login-action@v3
  with:
  username: ${{ secrets.prvligadocker1 }}
- password: ${{ secrets.prvligadocker1 }}
+ password: ${{ secrets.Prvliga@200617 }}
  - name: Build and push image
  uses: docker/build-push-action@v6
  with:
